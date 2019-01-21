@@ -1,1 +1,1 @@
-# IFI6069.DT-Programmeerimise-p-hikursus
+# IFI6069.DT Programmeerimise põhikursus 2019
