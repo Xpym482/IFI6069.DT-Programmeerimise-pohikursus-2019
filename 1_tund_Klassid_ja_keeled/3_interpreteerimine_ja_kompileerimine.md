@@ -1,0 +1,9 @@
+# Kompileerimine ja interpreteerimine
+
+Selleks et arvutid saaksid rakendada inimeste poolt kirjutatud koodi ehk algkoodi (source code) on eelnevalt vaja tõlkida see masinkoodi. Selle jaoks on kaks erinevad meetotit, interpreteerimine ja kompileerimine.
+
+## Kompileerimine
+Kompileerimine on protsess mille käigus enne programmi käivitamist tõlgitakse programm ümber masinkoodi. Juhul kui programmis on mingi viga näiteks süntaksiviga (kuskil semikoolon puudu, sulg sulgemata) viskab kompileerimist teostav programm ehk kompilaator programmeerijale veateate. Kompileerimise eelised paiknevad selles, et koodis olevad vead tulevad välja enne koodi käivitamist, mis hoiab kokku potentsiaalsete probleemide tekkimist. Samuti kuna tõlkeprotsess on tehtud enne programmi käivitamist on see kiirem, kuna kõik on juba protsessorile arusaadavas formaadis. Kompileeritud programmi saab kasutada ainult sama arhitektuuri peal (protsessor, operatsioonisüsteem) mille peal teda kompileeriti. Koodi jagamiseks erinevate arvutite vahel peab algkoodi transportima uute masinasse ja seal uuesti kompileerima. 
+
+## Interpreteerimine
+Interpreteerimine on protsess, kus algkoodi tõlgitakse ümber käigu pealt programmi käivitamise ajal. Kuna tõlkeprotsess on tavaliselt aeglane (interpretaator/kompilaator peab parsima koodi, tuvastama riistvara arhitektuuri ja seejärel tõlkima) siis on interpreteeritud programmid aeglasemad kui kompileeritud. Samuti kuna programmi tõlgitakse ümber alles käivitamise käigus, tekivad potensiaalsed vead alles siis kui on hilja. Eelis kompileeritud programmide üle paikneb aga selles, et programmi saab kohe käivitada. Suuremate programmide puhul võib kompileerime võtta kaua aega ning iga muudatuse tegemisel algkoodis peab seda uuesti tegema, kuid interpreteeritud keeled on rohkem kirjuta ja käivita stiilis.
