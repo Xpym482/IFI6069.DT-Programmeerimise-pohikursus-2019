@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Program",
+            "request": "launch",
+            "mainClass": "Program",
+            "projectName": "IFI6069.DT-Programmeerimise-pohikursus-2019_29770253"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GettersSettersSample",
+            "request": "launch",
+            "mainClass": "GettersSettersSample",
+            "projectName": "IFI6069.DT-Programmeerimise-pohikursus-2019_29770253"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SimpleStatistics",
+            "request": "launch",
+            "mainClass": "SimpleStatistics"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WebRequests",
+            "request": "launch",
+            "mainClass": "WebRequests"
+        }
+    ]
+}
