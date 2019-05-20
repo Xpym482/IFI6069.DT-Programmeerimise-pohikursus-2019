@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DemoApplication",
+            "request": "launch",
+            "mainClass": "exam.exam.DemoApplication",
+            "projectName": "exam"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Program",
             "request": "launch",
             "mainClass": "Program",
